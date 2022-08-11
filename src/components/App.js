@@ -9,7 +9,7 @@ const App = () => {
     const [videos, search] = useVideos('buildings');
 
     useEffect(() => {
-        selectedVideo(videos[0])
+        setSelectedVideo(videos[0])
     }, [videos])
 
     return (
